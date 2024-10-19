@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Cake</title>
+    <!-- custom css file  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+      <!-- Link to Google Fonts -->
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- header section start here  -->
+    <header class="header">
+        <div class="logoContent">
+            <a href="#" class="logo"><img src="logo.png" alt=""></a>
+            <h1 class="logoName">Sweet Cake </h1>
+        </div>
+
+        <nav class="navbar">
+            <a href="./index.html">home</a>
+            <a href="./about.html">about</a>
+            <a href="./product.html">product</a>
+            <a href="./contact.html">contact</a>
+        </nav>
+        <!-- Hamburger menu for mobile -->
+        <div class="hamburger" onclick="openNav()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <!-- header section end here  -->
+
+    <!-- Full-screen overlay menu for mobile -->
+    <div id="mobileNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="./index.html">home</a>
+            <a href="./about.html">about</a>
+            <a href="./product.html">product</a>
+            <a href="./contact.html">contact</a>
+        </div>
+    </div>
+     
+     <!--about us starts here  -->
+   <section class="about-us">
+    <div class="about h1">
+        <h2 class="section-title">ABOUT US</h2>
+    </div>
+    <div class="container">
+     
+      <div class="about-content">
+        <div class="about-image">
+          <img src="about.jpeg" alt="Baked Goods Image" />
+        </div>
+        <div class="about-text">
+          <h3>PROVIDING QUALITY BAKED GOODS FOR ALL CUSTOMERS</h3>
+          <p>
+            Our mission is to create a bakery that makes the best quality baked goods on site
+            from scratch, and where both employees and customers would feel comfortable.
+          </p>
+          <a href="#" class="read-more">READ MORE</a>
+          <div class="about-tabs">
+            <div class="tab active">
+              <span class="tab-number">01</span>
+              <span class="tab-text">OUR MISSION</span>
+            </div>
+            <div class="tab">
+              <span class="tab-number">02</span>
+              <span class="tab-text">OUR VALUES</span>
+            </div>
+            <div class="tab">
+              <span class="tab-number">03</span>
+              <span class="tab-text">OUR GOALS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!--team starts here  -->
+    <div class="team-section">
+        <h2>OUR TEAM</h2>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="team 1.jpeg" alt="Richard Smith">
+                <h3>RICHARD SMITH</h3>
+                <p>Richard has a true passion for baking and that’s why he has been our founder and head baker since day one.</p>
+               
+            </div>
+            <div class="team-member">
+                <img src="img 2.jpeg" alt="Susan Anderson">
+                <h3>SUSAN ANDERSON</h3>
+                <p>Susan spends most of her time baking and cake decorating as well as heading up the bakery's marketing initiatives.</p>
+               
+            </div>
+            <div class="team-member">
+                <img src="img 3.jpeg" alt="Steve Ruffalo">
+                <h3>STEVE RUFFALO</h3>
+                <p>Steve is our lead cake designer. He has designed beautiful cakes for various occasions including weddings, parties, showers, anniversaries and more.</p>
+                
+            </div>
+        </div>
+    </div>
+  <!--team ends here  -->
+  <!--hero start here  -->
+  <div class="hero-section">
+    <div class="hero-content">
+        <h3 class="subtitle">Unique Flavors and Fresh Ingredients</h3>
+        <h1 class="title">ALL KINDS OF CAKES</h1>
+        <a href="#" class="button">READ MORE</a>
+    </div>
+</div>
+ <!--hero ends here  -->
+ <!--news start here  -->
+ <section class="latest-news">
+    <h2>LATEST NEWS</h2>
+    <div class="news-container">
+        <div class="featured-news">
+            <div class="news-image" style="background-image: url('news\ 1.jpeg');"></div>
+            <div class="news-text">
+                <span class="date">August 9, 2023</span>
+                <h3>How to Pipe a Fluffy Frosting Border on a Cake</h3>
+            </div>
+        </div>
+        <div class="other-news">
+            <div class="news-item">
+                <div class="news-image" style="background-image: url('news2.jpeg');"></div>
+                <div class="news-text">
+                    <span class="date">May 29, 2022</span>
+                    <h3>Recipe of the Day: Pumpkin Spice Latte Cake</h3>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-image" style="background-image: url('news3.jpeg');"></div>
+                <div class="news-text">
+                    <span class="date">Sep 9, 2022</span>
+                    <h3>Top 5 Tips for Successful Cake Baking</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+     <!--news ends here  -->
+
+   <!-- footer section start here  -->
+
+   <footer class="footer" >
+    <div class="box-container">
+        <div class="mainBox">
+            <div class="content">
+                <a href="#"><img src="logo.png" alt=""></a>
+                <h1 class="logoName"> Sweet Cake </h1>
+            </div>
+
+            <p>Enjoy a slice of happiness with our <br>"Delicious Cake For Everyone"! From <br>rich chocolate to zesty lemon, <br>there’s a flavor for every occasion.</p>
+
+        </div>
+        <div class="box">
+            <h3>Quick link</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i>Home</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>about</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>product</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>contact</a>
+
+
+        </div>
+        <div class="box">
+            <h3>Extra link</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i>Account info</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>order item</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>privacy policy</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>payment method</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>our  services</a>
+        </div>
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#"> <i class="fas fa-phone"></i>+91 12222 34444</a>
+            <a href="#"> <i class="fas fa-envelope"></i>sweeetcake@gmail.com</a>
+
+        </div>
+
+    </div>
+    <div class="share">
+        <div class="footer-column">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+                <a href="https://www.facebook.com"><img src="facebook.jpeg" alt="Facebook" style="width: 24px; height: 24px;"></a>
+                  <a href="https://www.instagram.com"><img src="insta.jpeg" alt="Instagram" style="width: 24px; height: 24px;"></a>
+                  <a href="https://www.twitter.com"><img src="twi.jpeg" alt="Twitter" style="width: 24px; height: 24px;"></a>
+                  <a href="https://www.linkedin.com"><img src="linkedin.jpeg" alt="LinkedIn" style="width: 24px; height: 24px;"></a>
+                
+            </div>
+        </div>
+    </div>
+    <div class="credit">
+        © created by <span> aishu</span> |all rights reserved ! 
+    </div>
+</footer>
+
+
+
+
+
+
+  
+   <!--about us ends here  -->
+    <script src="script.js"></script>
+</body>
+</html>

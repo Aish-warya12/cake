@@ -1,0 +1,529 @@
+/* Mobile responsive for header and navigation */
+@media (max-width: 768px) {
+    /* Header: Stack logo and hamburger menu vertically */
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .logoContent {
+        flex-direction: row;
+        align-items: center;
+        width: 70%;
+    }
+
+    .logoName {
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+    }
+
+    /* Hide the desktop navbar on mobile */
+    .navbar {
+        display: none;
+    }
+
+    /* Display the hamburger menu */
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: #333;
+        margin: 5px 0;
+    }
+
+    /* Full-screen mobile navigation */
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+        z-index: 999;
+    }
+
+    .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 3rem;
+        color: #fff;
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 20%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .overlay-content a {
+        display: block;
+        font-size: 2rem;
+        color: #fff;
+        margin: 2rem 0;
+        text-decoration: none;
+    }
+
+    .overlay-content a:hover {
+        color: #f1c40f;
+    }
+}
+
+/* Responsive for the home section */
+@media (max-width: 768px) {
+    .home .homeContent {
+        width: 90%;
+        margin: 0 auto;
+        padding: 2rem;
+     
+    }
+
+    .home .homeContent h2 {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    .home .homeContent p {
+        font-size: 1.2rem;
+    }
+
+    .home .homeContent .home-btn button {
+        font-size: 1.4rem;
+        padding: 0.5rem 1.8rem;
+    }
+}
+/* Mobile responsive for header and navigation */
+@media (max-width: 768px) {
+    /* Prevent overflow for the entire page */
+    body {
+        overflow-x: hidden; /* Ensures no horizontal scrolling */
+    }
+
+    /* Header: Stack logo and hamburger menu vertically */
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .logoContent {
+        flex-direction: row;
+        align-items: center;
+        width: 70%;
+    }
+
+    .logoName {
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+    }
+
+    /* Hide the desktop navbar on mobile */
+    .navbar {
+        display: none;
+        color: #000;
+    }
+
+    /* Display the hamburger menu */
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        color: #000;
+    }
+
+    .hamburger span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: black;
+        margin: 5px 0;
+    }
+/* Hamburger menu style with black color */
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #000; /* Changed to black */
+    margin: 5px 0;
+}
+
+    /* Full-screen mobile navigation */
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+        z-index: 999;
+    }
+
+    .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 3rem;
+        color: #fff;
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 20%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .overlay-content a {
+        display: block;
+        font-size: 2rem;
+        color: #fff;
+        margin: 2rem 0;
+        text-decoration: none;
+    }
+
+    .overlay-content a:hover {
+        color: #f1c40f;
+    }
+}
+
+/* Responsive for the home section */
+@media (max-width: 768px) {
+    .home {
+        min-height: 100vh;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .home .homeContent {
+        width: 90%;
+        margin: 0 auto;
+        padding: 2rem;
+        margin-top: 10vh; 
+        margin-right: 7vh;
+    }
+
+    .home .homeContent h2 {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+
+    .home .homeContent p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .home .homeContent .home-btn button {
+        font-size: 1.4rem;
+        padding: 0.5rem 1.8rem;
+    }
+}
+@media (max-width: 768px) {
+    .text-content {
+        top: 15%; /* Adjust top position for better visibility */
+    }
+
+    .text-content h1 {
+        font-size: 24px; /* Further reduced font size */
+    }
+
+    .text-content p {
+        font-size: 1.2rem; /* Reduced font size */
+    }
+
+    .cta-button {
+        padding: 8px 12px; /* Smaller padding for button */
+        font-size: 16px; /* Smaller button font size */
+    }
+}
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .offer-section h2 {
+      font-size: 28px; /* Reduced font size for smaller screens */
+      margin-bottom: 20px; /* Reduced margin bottom */
+    }
+  
+    .offer-cards {
+      flex-direction: column; /* Stack cards vertically */
+      align-items: center; /* Center cards */
+      gap: 20px; /* Reduce gap between cards */
+    }
+  
+    .offer-card {
+      max-width: 90%; /* Allow cards to fill more space */
+      padding: 15px; /* Adjust padding */
+    }
+  
+    .offer-card h3 {
+      font-size: 20px; /* Reduced font size */
+    }
+  
+    .offer-card p {
+      font-size: 14px; /* Reduced font size */
+    }
+  
+    .read-more {
+      font-size: 12px; /* Reduced font size */
+    }
+  }
+  
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+        padding: 20px; /* Add padding for mobile */
+    }
+
+    .cake-image {
+        width: 90vh; /* Keep image full width */
+        height: 90vh; /* Maintain aspect ratio */
+        margin-top: -90px;
+        margin-left: -70px;
+    }
+
+    .text-content {
+        max-width: 90%; /* Adjust max width for mobile */
+        padding: 10px; /* Reduce padding for mobile */
+    }
+
+    .text-content h1 {
+        font-size: 28px; 
+        margin-top: -110px;
+
+    }
+
+    .text-content p {
+        font-size: 1.2rem; 
+        line-height: 1.5;
+        
+    }
+
+    .cta-button {
+        font-size: 20px; /* Reduce button font size */
+        padding: 8px 12px; /* Adjust button padding */
+    }
+}
+@media (max-width: 768px) {
+    .latest-news {
+        padding: 10px; /* Reduce padding for mobile */
+    }
+
+    .featured-news {
+        flex: 1; /* Full width for featured news */
+        margin-bottom: 15px; /* Add space below featured news */
+    }
+
+
+    .featured-news .news-text {
+        bottom: 10px; /* Reduce space from the bottom */
+        left: 10px; /* Reduce space from the left */
+        padding: 5px; /* Reduce padding for text */
+    }
+
+    .news-text h3 {
+        font-size: 18px; /* Smaller font size for mobile */
+        margin: 3px 0; /* Adjust margin for headings */
+    }
+
+    .news-text .date {
+        font-size: 12px; /* Smaller date font size */
+    }
+
+    .other-news {
+        flex: 1; /* Ensure it takes full width */
+        display: flex; 
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .news-item {
+        flex-direction: column; /* Stack content vertically */
+        margin-bottom: 15px; /* Space between news items */
+        box-shadow: none; /* Remove shadow for a cleaner look */
+    }
+
+    .news-item .news-image {
+        height: 120px; /* Adjust height for smaller screens */
+    }
+
+    .news-item .news-text {
+        padding: 8px; /* Adjust padding for news text */
+    }
+
+    .news-item .news-text .date {
+        font-size: 10px; /* Smaller date font size */
+    }
+
+    .news-item .news-text h3 {
+        font-size: 14px; /* Smaller heading size */
+    }
+}
+@media (max-width: 768px) {
+    
+
+    .banner-content {
+        max-width: 90%; /* Use more width on mobile */
+    }
+
+    h1 {
+        font-size: 32px; /* Reduce font size */
+    }
+
+    .discount {
+        font-size: 24px; /* Reduce discount font size */
+    }
+
+    p {
+        font-size: 14px; /* Reduce paragraph font size */
+    }
+
+    .btn {
+        padding: 10px 20px; /* Adjust padding for the button */
+        font-size: 14px; /* Reduce font size */
+    }
+}
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+
+  }
+  @media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .middle-image img {
+        width: 250px;
+    }
+  }
+  /* Responsive Design */
+@media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+    }
+  
+    .about-image img {
+      margin-bottom: 20px;
+    }
+  
+    .about-text {
+      text-align: center;
+    }
+  
+    .about-tabs {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+  /* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .answers-section {
+        flex-direction: column; /* Stack columns on top of each other */
+        gap: 30px; /* Adjust the gap between sections */
+    }
+
+    .left-column {
+        max-width: 100%; /* Full width on mobile */
+    }
+
+    .faq-title {
+        font-size: 16px; /* Slightly smaller font size */
+    }
+
+    .contact-btn {
+        padding: 10px 15px; /* Smaller padding for the button */
+        font-size: 20px; /* Smaller font size for the button */
+    }
+
+    .right-column {
+        width: 100%; /* Full width on mobile */
+    }
+
+    .map {
+        width: 100%; /* Make the map responsive */
+        height: 200px; /* Adjust height for mobile */
+    }
+
+   
+
+    .stat-item {
+        padding: 15px; 
+        margin-top: 100px;/* Adjust padding for smaller screens */
+    }
+
+    .stat-item span {
+        font-size: 30px; /* Smaller font size for stats on mobile */
+    }
+
+    .stat-item p {
+        font-size: 14px; /* Smaller font size for description */
+    }
+}
+/* Mobile Responsive Footer */
+@media (max-width: 768px) {
+    /* Ensure the footer doesn't overflow horizontally */
+    .footer {
+        padding: 2rem;
+        background-size: cover;
+        background-position: center;
+    }
+  
+    /* Adjust the grid layout for smaller screens */
+    .footer .box-container {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        text-align: center;
+    }
+  
+    /* Ensure the logo and content stack properly */
+    .footer .box-container .mainBox .content {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .footer .box-container .mainBox p {
+        font-size: 1.5rem;
+    }
+  
+    .footer .box-container .box h3 {
+        font-size:2rem;
+    }
+  
+    .footer .box-container .box a {
+        font-size: 1.4rem;
+    }
+  
+    /* Adjust the social icons and links for mobile */
+    .footer .share {
+        padding: 1rem 0;
+        text-align: center;
+    }
+  
+    .footer .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+  
+    .footer-column img {
+        width: 20px;
+        height: 20px;
+    }
+  
+    .footer .credit {
+        font-size: 1.4rem;
+    }
+  }
+ 
